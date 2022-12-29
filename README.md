@@ -1,5 +1,5 @@
 # Search API
-  * 외부 Open API를 활용하여 검색 API 개발
+  * 외부 Open API를 활용하여 검색 API 개발 (미 완성)
   ## 요구사항
     * Java 8 이상 또는 Kotlin 언어로 구현
     * Spring Boot 사용
@@ -25,7 +25,7 @@
 
 
 ## Getting Started
- ## valut 설치
+ ## valut 설치 (Open API Secret key 등 중요한 보안 소스 vault 연동하여 보관)
   * brew를 사용하여 vault 설치
     ``` 
       brew install vault 
@@ -36,7 +36,7 @@
     ```
       * 참고 Document : https://spring.io/guides/gs/vault-config/
   * 설치된 jdk 없을 시 아래 방법에서 설치
-    * https://adoptopenjdk.net/index.html 에서 다운로드 후 설치 (OpenJDK 8)
+    * https://adoptopenjdk.net/index.html 에서 다운로드 후 설치 (OpenJDK 17)
     * yum list java*jdk-devel 에서 설치 가능한 java 확인 후 설치
 
  ## curl 명령어
