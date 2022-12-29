@@ -1,0 +1,45 @@
+#config
+---
+spring:
+  application:
+    name: gs-vault-config
+  cloud:
+    vault:
+      token: 00000000-0000-0000-0000-000000000000
+      scheme: http
+      host: 127.0.0.1
+      port: 8200
+      kv:
+        enabled: true
+        backend: secret
+        default-context: local
+  datasource:
+    url: jdbc:h2:mem:kakaobank_db
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2
+      settings:
+        trace: false
+        web-allow-others: true
+
+property:
+  domain:
+    kakao: https://dapi.kakao.com
+    naver: https://openapi.naver.com
+  api:
+    search:
+      kakao: /v2/local/search/keyword.json
+      naver: /v1/search/local.json
+  client-info:
+    kakao:
+      rest-api-key: b588064802ea795a9c9f7f92303de7b8
+    naver:
+      client-id: 82MQ2KeEGphUh32KsF2i
+      client-secret: e3jiShfIe3
+  max-count:
+    kakao: 5
+    naver: 5
