@@ -36,10 +36,10 @@ property:
       naver: /v1/search/local.json
   client-info:
     kakao:
-      rest-api-key: b588064802ea795a9c9f7f92303de7b8
+      rest-api-key: 
     naver:
-      client-id: 82MQ2KeEGphUh32KsF2i
-      client-secret: e3jiShfIe3
+      client-id: 
+      client-secret: 
   max-count:
     kakao: 5
     naver: 5
